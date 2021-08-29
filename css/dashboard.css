@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cnt1 {
+    /* border: 2px solid red; */
+    width: 12em;
+    height: 37em;
+    margin: 2em;
+    background-color: #ebedf2a8;
+    box-shadow: 0px 5px 22px #b9babba8;
+}
+
+.cnt1 .logo {
+    /* width: 4em; */
+    height: 4em;
+    /* border: 3px solid mediumorchid; */
+    background-image: url('/project/images/dashboard/logo');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.cnt1 .items {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid cornflowerblue; */
+    height: 84%;
+}
+
+.items .dashboard {
+    /* border: 2px solid lightcoral; */
+    padding: 10px;
+    /* border-radius: 24px; */
+    background-color: whitesmoke;
+    color: red;
+    box-shadow: 0px 4px 8px #8a8282d1;
+}
+
+.cnt1 .items .item {
+    width: 8em;
+    height: 4em;
+    margin: 1em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.cnt1 .items .item img {
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p {
+    font-size: 11px;
+    margin-left: 8px;
+}
+
+.cnt2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+    width: 70em;
+    height: 37em;
+    margin: 2em;
+    justify-content: space-between;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    width: 49.5em;
+    height: 13em;
+    background-color: #77acf1;
+    border-radius: 30px;
+    box-shadow: 1px 10px 6px #77acf1;
+}
+
+.assests {
+    width: 63em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assests img {
+    height: 10em;
+    width: 18em;
+}
+
+.slides {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+
+.heading p {
+    color: white;
+    font-size: 28px;
+}
+
+.slides .awards img {
+    width: 4em;
+    height: 4em;
+}
+
+.awards {
+    width: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.awards p {
+    font-size: 18px;
+    color: white;
+}
+
+.two {
+    /* border: 2px solid yellow; */
+    width: 16em;
+    height: 13em;
+}
+
+.two .picture {
+    height: 5em;
+    /* border: 3px solid burlywood; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.picture img {
+    width: 4em;
+    height: 4em;
+    border-radius: 44%;
+}
+
+.two .points {
+    height: 5.5em;
+    background-color: #00ffffa3;
+    text-align: center;
+    border-radius: 24px;
+    margin: 13px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle1 {
+    width: 2em;
+    height: 2em;
+    background-color: #bff2f2b8;
+    border-radius: 50%;
+    position: relative;
+    bottom: 3em;
+    left: 2em;
+}
+
+.circle2 {
+    width: 2em;
+    height: 2em;
+    background-color: #bff2f2b8;
+    border-radius: 50%;
+    position: relative;
+    bottom: 7em;
+    right: -12em;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 41em;
+    justify-content: space-around;
+    margin-left: 5em;
+}
+
+.img {
+    /* border: 2px solid black; */
+    width: 14em;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 10px 5px #e1fff5;
+    flex-direction: column;
+    justify-content: inherit;
+}
+
+.img img {
+    width: 5em;
+    height: 5em;
+    /* margin: 2em; */
+}
+
+.Myclass {
+    background-color: #fbcfd7bf;
+}
+
+.classForum {
+    background-color: #e1fff5;
+}
+
+.Myprogress {
+    background-color: #fff0f2e3;
+}
+
+.teacherNote {
+    background-color: #fff0f2e3;
+}
+
+.four {
+    /* border: 2px solid purple; */
+    width: 18em;
+}
+
+.four .avatar {
+    height: 15em;
+    /* border: 2px solid chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.four .upgrade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid aqua; */
+    height: 3em;
+    /* background-color: red; */
+}
+
+.four .avatar img {
+    height: 17em;
+    position: relative;
+    bottom: 0em;
+    width: 11em;
+}
+
+.avatar p {
+    position: relative;
+    bottom: 2em;
+}
+
+.four .upgrade button {
+    width: 8em;
+    height: 3em;
+    border-radius: 18px;
+    background-color: #f92f2f;
+    color: white;
+    position: relative;
+    top: 4em;
+    left: 2em;
+    box-shadow: 0px 3px 10px #550404;
+}
