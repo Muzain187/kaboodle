@@ -83,7 +83,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-image: url('./images/login/background.png');
+    background-image: url('../images/login/background');
     border-radius: 45px;
     width: 59em;
     height: 26em;
